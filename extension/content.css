@@ -1,0 +1,41 @@
+/* Badge styles injected into Amazon pages.
+   Everything is prefixed with frd- to avoid clashing with Amazon's own classes. */
+
+.frd-badge {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: fit-content;
+  margin: 6px 0;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font: 600 12px/1.4 -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.frd-loading { background: #eef0f3; color: #555; }
+.frd-low { background: #e6f4ea; color: #1e6b34; }
+.frd-mid { background: #fff4d6; color: #8a5a00; }
+.frd-high { background: #fde7e7; color: #b42318; }
+.frd-error { background: #eef0f3; color: #777; font-weight: 500; }
+
+.frd-why {
+  border: none;
+  background: rgba(0, 0, 0, 0.08);
+  color: inherit;
+  border-radius: 999px;
+  padding: 2px 8px;
+  font: inherit;
+  cursor: pointer;
+}
+.frd-why:hover { background: rgba(0, 0, 0, 0.14); }
+.frd-why:disabled { opacity: 0.7; cursor: default; }
+
+.frd-explain {
+  margin: 4px 0 12px;
+  padding: 10px 12px;
+  border-left: 3px solid #b42318;
+  background: #fafafa;
+  color: #333;
+  font: 13px/1.5 -apple-system, BlinkMacSystemFont, sans-serif;
+  white-space: pre-wrap;
+}

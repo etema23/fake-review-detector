@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <header>
+      <img src="icons/icon48.png" alt="" width="28" height="28" />
+      <h1>Fake Review Detector</h1>
+    </header>
+
+    <p id="status" class="status">Checking server...</p>
+
+    <textarea id="review" placeholder="Paste a review to check it"></textarea>
+    <button id="check">Check</button>
+
+    <div id="result" hidden>
+      <div id="verdict"></div>
+      <div class="bar"><div id="fill"></div></div>
+      <div id="explanation"></div>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

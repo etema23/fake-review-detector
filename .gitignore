@@ -1,0 +1,7 @@
+venv/
+__pycache__/
+*.csv
+*.zip
+embeddings.npz
+.env
+.DS_Store
